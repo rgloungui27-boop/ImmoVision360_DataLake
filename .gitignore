@@ -1,0 +1,27 @@
+# ── Données brutes (trop lourdes pour GitHub) ──────────────────
+data/raw/images/*
+data/raw/texts/*
+data/raw/tabular/*.csv
+
+# Garder les dossiers vides dans Git
+!data/raw/images/.gitkeep
+!data/raw/texts/.gitkeep
+!data/raw/tabular/.gitkeep
+
+# ── Logs générés à l'exécution ─────────────────────────────────
+scripts/*.log
+
+# ── Python ─────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# ── Jupyter ────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── OS ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
