@@ -30,7 +30,7 @@ IMAGES_DIR  = BASE_DIR / "data" / "raw" / "images"
 LOG_FILE    = BASE_DIR / "scripts" / "01_ingestion_images.log"
 
 TARGET_SIZE = (320, 320)   # pixels — contrainte Big Data Management
-QUARTIER    = "Élysée"     # périmètre métier
+QUARTIER    = "Elysée"     # périmètre métier
 SLEEP_MIN   = 0.5          # secondes — courtoisie serveur (rate limiting)
 SLEEP_MAX   = 1.5
 TIMEOUT     = 10           # secondes par requête

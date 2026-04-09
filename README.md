@@ -118,21 +118,21 @@ python scripts/03_sanity_check.py
 Périmètre : Élysée — [N] annonces de référence
 
 📷 BRAS IMAGES :
-   Attendues  : 2625
-   Présentes  : 2302
-   Taux       : 87.7%
-   5 premiers IDs sans .jpg : 1062029016198078232, 1176000804891474467, 1228035525860398543, 936986500009216462, 50323726
+   Attendues  : [X]
+   Présentes  : [X]
+   Taux       : [X]%
+   5 premiers IDs sans .jpg : [...]
 
 📄 BRAS TEXTES :
-   Attendus   : 1965
-   Présents   : 1965
-   Taux       : 100%
-   5 premiers IDs sans .txt : Aucun
+   Attendus   : [X]
+   Présents   : [X]
+   Taux       : [X]%
+   5 premiers IDs sans .txt : [...]
 
 🔗 COHÉRENCE CROISÉE :
-   IDs avec image ET texte   : 1709
-   IDs image sans texte      : 593
-   IDs texte sans image      : 256
+   IDs avec image ET texte   : [X]
+   IDs image sans texte      : [X]
+   IDs texte sans image      : [X]
 ```
 
 ---

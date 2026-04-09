@@ -18,13 +18,13 @@ from pathlib import Path
 # ─────────────────────────────────────────────
 
 BASE_DIR     = Path(__file__).resolve().parent.parent
-LISTINGS_CSV = BASE_DIR / "data" / "raw" / "tabular" / "listings.csv"
+LISTINGS_CSV = BASE_DIR / "data" / "raw" / "tabular" / "listings_full.csv"
 REVIEWS_CSV  = BASE_DIR / "data" / "raw" / "tabular" / "reviews.csv"
 IMAGES_DIR   = BASE_DIR / "data" / "raw" / "images"
 TEXTS_DIR    = BASE_DIR / "data" / "raw" / "texts"
 LOG_FILE     = BASE_DIR / "scripts" / "03_sanity_check.log"
 
-QUARTIER     = "Élysée"
+QUARTIER     = "Elysée"
 N_ORPHANS    = 5   # nombre d'exemples d'orphelins à afficher
 
 # ─────────────────────────────────────────────

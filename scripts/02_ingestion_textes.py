@@ -28,7 +28,7 @@ REVIEWS_CSV  = BASE_DIR / "data" / "raw" / "tabular" / "reviews.csv"
 TEXTS_DIR    = BASE_DIR / "data" / "raw" / "texts"
 LOG_FILE     = BASE_DIR / "scripts" / "02_ingestion_textes.log"
 
-QUARTIER     = "Élysée"
+QUARTIER     = "Elysée"
 
 # ─────────────────────────────────────────────
 # 1. Logging
